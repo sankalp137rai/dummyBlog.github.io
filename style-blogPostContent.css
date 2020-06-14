@@ -1,0 +1,77 @@
+.blog-container{
+    grid-area: cont;
+}
+.sub-heading2{
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 15px 0px 10px 0px;
+}
+.blog-container h2{
+    margin: 20px 20px 0px 50px;
+    font-weight: lighter;
+    font-size: 2em;
+}
+.blog-container .para1{
+    margin: 0px 50px; 
+}
+.blog-container .img-block img{
+    width: 98%;
+    height: 200px;
+    border-radius: .5em;
+    margin-left: 5px;
+}
+.borderd-para{
+    border: 1px solid #e8e8e8;
+    padding: 5px
+}
+.para2{
+    margin: 0px 50px;
+}
+.special-quote{
+    border-left: 3px solid cornflowerblue;
+    background-color: #e8e8e8;
+    padding: 15px 10px;
+    border-radius: 0.5em;
+}
+.discp-container{
+    grid-area: des;
+    /* background-color: darkorange; */
+    display: flex;
+    flex-direction: column;
+}
+.author-dis{
+    width: 70%;
+    height: 200px;
+    margin: 10px;
+    background-color: #e8e8e8;
+    border-radius: .5em;
+    padding: 7px;
+}
+.about-author{
+    font-size: 1.5em;
+    font-style: italic;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.discp-container .archives,.elsewhere{
+    margin: 5px 10px;
+    padding: 0px 7px;
+}
+.discp-container .archives .anc, .else{
+    margin: 3px;
+    color: cornflowerblue;
+}
+.discp-container .archives p{
+    font-style: italic;
+    font-size: 1.5em;
+}
+.discp-container .elsewhere p{
+    font-style: italic;
+    font-size: 1.5em;
+}
+.quote{
+    background-color: #ffefc2;
+    padding: 5px;
+    border-left: 2px solid #facb48;
+    border-radius: .5em;
+}

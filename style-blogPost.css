@@ -1,0 +1,26 @@
+@import "./footer.css";
+@import "./style-blogPostContent.css";
+@import "./style-blogPostTitle.css";
+body{
+    margin: 0;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr 5fr 2fr 0.5fr;
+    grid-template-areas: "title"
+                          "cont"
+                          "des"
+                          "ft";
+} 
+@media (min-width: 500px){
+    .main-container{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: .8fr 7fr .5fr;
+        grid-template-areas: "title title"
+                             "cont des"
+                             "ft ft";
+    }
+
+}

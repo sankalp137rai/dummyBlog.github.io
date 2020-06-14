@@ -1,0 +1,8 @@
+.footer{
+    grid-area: ft;
+    background: linear-gradient(115deg, cornflowerblue, #ffff); 
+}
+.footer > p{
+    margin-left: 2em;
+    color: white;
+}

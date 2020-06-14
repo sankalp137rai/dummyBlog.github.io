@@ -1,0 +1,12 @@
+.header{
+    grid-area: hd;
+}
+
+ h1{
+    margin: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    font-weight: lighter;
+    color: cornflowerblue;
+    margin-left: 1em;
+}
